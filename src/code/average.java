@@ -14,8 +14,6 @@ public class average {
             arr[i] = sc.nextInt();
         }
 
-
-
         int max;
         max = arr[0];
 
