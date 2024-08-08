@@ -28,6 +28,7 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-prime
-test
-find_fraction
+.bar.java
+.plus2.java
+.find_fraction.java
+.prime.java
