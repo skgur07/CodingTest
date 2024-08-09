@@ -2,7 +2,7 @@ package silver;
 
 import java.util.Scanner;
 
-public class harmonicMean {
+public class HarmonicMean {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

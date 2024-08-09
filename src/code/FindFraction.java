@@ -1,8 +1,6 @@
 package code;
 
-import java.util.Scanner;
-
-public class find_fraction {
+public class FindFraction {
 //    public static void main(String[] args) {
 //
 //        Scanner sc = new Scanner(System.in);

@@ -27,8 +27,3 @@ bin/
 
 ### Mac OS ###
 .DS_Store
-
-.bar.java
-.plus2.java
-.find_fraction.java
-.prime.java
