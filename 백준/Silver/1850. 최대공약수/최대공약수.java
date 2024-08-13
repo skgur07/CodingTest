@@ -4,13 +4,9 @@ import java.util.Scanner;
 public class Main {
 
     static int gcd(long a, long b) {
-
-        while(b != 0) {
-            long r = a % b;
-            a = b;
-            b = r;
-    }
-        return (int) a;
+        if (b == 0)
+            return (int)a;
+        return gcd(b, a % b);
     }
 
     public static void main(String[] args) {
