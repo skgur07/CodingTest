@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class NumberFlipAndComparison {
     public static void main(String[] args) {
+
+        // 숫자 2개를 받으면 뒤집고 그 숫자 두개를 비교해라.
+        // ex) 123, 456이 들어오면 321, 654를 비교해 큰 값을 출력 output) 654
+
         Scanner sc1 = new Scanner(System.in);
         Scanner sc2 = new Scanner(System.in);
 
