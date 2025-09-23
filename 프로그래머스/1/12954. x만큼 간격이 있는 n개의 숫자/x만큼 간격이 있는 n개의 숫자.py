@@ -1,2 +1,1 @@
-def solution(x, n):
-    return [i for i in range(x, n*x+1, x)]
+solution = lambda x, n: [x * i for i in range(1, n + 1)]
