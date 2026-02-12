@@ -1,7 +1,6 @@
 import sys
 
 sys.stdin = open('input.txt', 'r')
-
 T = int(input())
 
 for tc in range(1, T + 1):
@@ -11,9 +10,9 @@ for tc in range(1, T + 1):
     freight.sort()
 
     result = 0
-    i = 1
-    while True:
-
+    # i = 1
+    # while True:
+    for i in range(1, len(freight) + 1):
         if A > 0:
             # a.append(freight.pop() * i)
             result += freight.pop() * i
@@ -24,7 +23,7 @@ for tc in range(1, T + 1):
             B -= 1
         if A == 0 and B == 0:
             break
-        i += 1
+        # i += 1
 
     # result = sum(a) + sum(b)
     print(f'#{tc} {result}')
